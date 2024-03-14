@@ -1,6 +1,6 @@
 # Explorations in Texture Learning
 
-This is the code repository for the work *Explorations in Texture Learning* in ICLR 2024, Tiny Papers track LINK 
+This is the code repository for the work *Explorations in Texture Learning* in ICLR 2024, Tiny Papers track
 
 To reproduce the results in this paper, simply run `python3 main.py` in your terminal. This will download the DTD dataset, fetch the pretrained ImageNet model, and run the texture learning analysis. When the program completes, the results will be contained in `texture_object_top3.csv`. With this csv file, you can create tables for the texture-object associations like this:
 
