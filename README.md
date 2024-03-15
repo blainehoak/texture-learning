@@ -1,6 +1,6 @@
 # Explorations in Texture Learning
 
-This is the code repository for the work *Explorations in Texture Learning* in ICLR 2024, Tiny Papers track
+This is the code repository for the work [*Explorations in Texture Learning*](https://arxiv.org/abs/2403.09543) in ICLR 2024, Tiny Papers track
 
 To reproduce the results in this paper, simply run `python3 main.py` in your terminal. This will download the DTD dataset, fetch the pretrained ImageNet model, and run the texture learning analysis. When the program completes, the results will be contained in `texture_object_top3.csv`. With this csv file, you can create tables for the texture-object associations like this:
 
@@ -61,7 +61,14 @@ If running on a CPU, this may take some time (~20 minutes). If running on a GPU,
 To cite the paper:
 
 ```
-bibtex
+@misc{hoak2024explorations,
+      title={Explorations in Texture Learning}, 
+      author={Blaine Hoak and Patrick McDaniel},
+      year={2024},
+      eprint={2403.09543},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 **Acknowledgements**:
