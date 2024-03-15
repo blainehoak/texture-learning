@@ -60,7 +60,7 @@ If running on a CPU, this may take some time (~20 minutes). If running on a GPU,
 
 To cite the paper:
 
-```
+```bibtex
 @misc{hoak2024explorations,
       title={Explorations in Texture Learning}, 
       author={Blaine Hoak and Patrick McDaniel},
